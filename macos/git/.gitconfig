@@ -1,0 +1,19 @@
+[user]
+    name = Jose Alarcon
+    email = alarconh.jose@gmail.com
+
+[github]
+    user = alarconj
+
+[alias]
+    # Commit all changes.
+    ca = "!f() { git add --all; git commit -m \"$1\"; }; f"
+
+[push]
+    default = simple
+
+[color]
+    ui = true
+
+[core]
+    longpaths = true

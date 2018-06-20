@@ -1,0 +1,18 @@
+brew "coreutils"
+brew "git"
+brew "cmake"
+brew "python"
+brew "doxygen"
+brew "pybind11"
+brew "mas"
+cask_args appdir: "/Applications"
+tap "homebrew/cask"
+cask "iterm2"
+cask "atom"
+cask "sublime-text"
+cask "google-chrome"
+mas "1Password", id: 1333542190
+mas "Magnet", id: 441258766
+mas "Keynote", id: 409183694
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541

@@ -1,0 +1,80 @@
+"*":
+  "Sublime-Style-Column-Selection":
+    mouseButtonTrigger: "Middle"
+    selectKeyTrigger: "None"
+  core:
+    closeEmptyWindows: false
+    destroyEmptyPanes: false
+    disabledPackages: [
+      "open-on-github"
+      "link"
+      "language-typescript"
+      "language-toml"
+      "language-sql"
+      "language-sass"
+      "language-objective-c"
+      "language-mustache"
+      "language-javascript"
+      "language-java"
+      "language-go"
+      "language-csharp"
+      "language-clojure"
+      "github"
+      "autosave"
+      "autoflow"
+      "autocomplete-html"
+      "autocomplete-css"
+      "background-tips"
+      "bookmarks"
+      "welcome"
+      "image-view"
+    ]
+    projectHome: "/Users/itseez/dev/bench"
+    reopenProjectMenuCount: 10
+    restorePreviousWindowsOnStart: "no"
+    telemetryConsent: "no"
+  editor:
+    fontFamily: "Menlo"
+    showIndentGuide: true
+    softWrap: true
+    softWrapHangingIndent: 4
+    tabLength: 4
+    tabType: "soft"
+  "exception-reporting":
+    userId: "b5a0a63a-194c-4a02-9580-c067578b7b4c"
+  "line-ending-selector":
+    defaultLineEnding: "LF"
+  "spell-check":
+    addKnownWords: true
+    excludedScopes: [
+      "keyword"
+      "entity"
+      "constant"
+      "variable"
+      "support"
+      "storage"
+    ]
+    grammars: [
+      "source.asciidoc"
+      "source.c"
+      "source.cpp"
+      "source.cmake"
+      "source.cache.cmake"
+      "source.gfm"
+      "text.git-commit"
+      "text.plain"
+      "text.plain.null-grammar"
+      "source.python"
+      "source.shell"
+      "source.yaml"
+    ]
+    locales: [
+      "en-CA"
+    ]
+  "status-bar":
+    fullWidth: false
+  welcome:
+    showOnStartup: false
+".source.yaml":
+  editor:
+    autoIndentOnPaste: true
