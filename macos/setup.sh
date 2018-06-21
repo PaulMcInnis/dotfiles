@@ -37,13 +37,13 @@ apm install --packages-file $atom_src/packages.txt
 
 # Symlink the settings for sublime text.
 subl_src=$dfiles/macos/sublime
-subl_dest=$HOME/Library/Application Support/Sublime Text 3/Packages
+subl_dest="$HOME/Library/Application Support/Sublime Text 3/Packages"
 mkdir -p $subl_dest/Language
 mkdir -p $subl_dest/User
 cp $subl_src/en_CA.aff $subl_dest/Language
 cp $subl_src/en_CA.dic $subl_dest/Language
 gln -sf $subl_src/Preferences.sublime-settings $subl_dest/User
-gln -sf /Applications/Sublime Text.app/Contents/SharedSupport/bin/subl $HOME/dev/bin
+gln -sf "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" $HOME/dev/bin
 
 # Configure iterm2.
 defaults write com.googlecode.iterm2.plist PrefsCustomFolder -string $dfiles/macos/iterm
@@ -62,4 +62,3 @@ gln -sf $dfiles/macos/omz/paul.zsh-theme $theme_path
 
 # Symlink the zshrc file.
 gln -sfT $dfiles/macos/omz/zshrc.sh $HOME/.zshrc
-source $HOME/.zshrc
