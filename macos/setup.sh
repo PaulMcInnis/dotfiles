@@ -43,6 +43,7 @@ mkdir -p $subl_dest/User
 cp $subl_src/en_CA.aff $subl_dest/Language
 cp $subl_src/en_CA.dic $subl_dest/Language
 gln -sf $subl_src/Preferences.sublime-settings $subl_dest/User
+mkdir -p $HOME/dev/bin
 gln -sf "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" $HOME/dev/bin
 
 # Configure iterm2.
