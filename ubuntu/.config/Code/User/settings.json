@@ -1,0 +1,86 @@
+{
+  //"python.maxExceptionStackFrames": 5,
+  "editor.detectIndentation": false,
+  "editor.tabsize": 4,
+  "editor.rulers":[100],
+  "editor.minimap.enabled": false, // removes minimap
+  "editor.renderWhitespace": "none", // removes whitespace chars
+  "editor.renderIndentGuides": false, // removes indent guides
+  "editor.renderLineHighlight": "none", // removes line highlight
+  "editor.overviewRulerBorder": false, // removes border from overview ruler (located on the right, same position as the scrollbar)
+  "editor.hideCursorInOverviewRuler": true, // hides cursor mark in the overview ruler
+  "editor.folding": false, // removes the folding feature
+"editor.occurrencesHighlight": false, // removes the space used mainly for debugging indicators
+  "explorer.openEditors.visible": 0, // removes the open editors section at the top of the sidebar, you can see the opened files with ⌘ + ⌥ + Tab
+  "workbench.activityBar.visible": false, // removes the activity bar (the 4 icons at the left of the screen), so now you will have to open the explorer, git, debugger and extension with shortcuts or through the Command Palette
+  "workbench.editor.showIcons": false, // removes icon from opened files in tabs
+  "workbench.editor.tabCloseButton": "off", // removes cross icon from tabs
+  "workbench.statusBar.visible": true, // removes the status bar
+  "indenticator.color.dark": "rgba(255,255,255,.1)", // adds a subtle indent guide (needs Indenticator extension)
+  "workbench.colorCustomizations": { // object that allows you to customize your color theme: https://code.visualstudio.com/docs/getstarted/theme-color-reference
+    "tab.activeBorder": "#0000", // removes border to highlight active tabs (the colors formats are: #RGB, #RGBA, #RRGGBB or #RRGGBBAA)
+    "editor.selectionBackground": "#135564", //"#135564",
+    "editor.selectionHighlightBackground": "#135564", //"#135564"
+  },
+  //"workbench.statusBar.feedback.visible": false, // no more dumb tweet feedback smiley
+  "editor.scrollBeyondLastLine": false,
+  "editor.autoClosingBrackets": false,
+  "editor.autoindent": false,
+  "workbench.colorTheme": "Monokai ST3",
+  "gitlens.currentLine.enabled": false,
+  "gitlens.hovers.currentLine.over": "line",
+  "window.zoomLevel": 0.4,
+"customWindowZoom.zoomLevelChangeValue": 0.1,
+"gitlens.views.repositories.enabled": false,
+  "gitlens.views.search.enabled": false,
+  "gitlens.views.compare.enabled": true,
+  "gitlens.mode.statusBar.enabled": false,
+"workbench.startupEditor": "none",
+"files.trimTrailingWhitespace": true,
+"python.linting.enabled": true,
+"editor.multiCursorModifier": "ctrlCmd",
+"editor.useTabStops": false,
+"gitlens.views.repositories.location": "gitlens",
+"gitlens.views.fileHistory.location": "gitlens",
+"gitlens.views.lineHistory.location": "gitlens",
+"gitlens.views.compare.location": "gitlens",
+"gitlens.views.search.location": "gitlens",
+"git.useForcePushWithLease": false,
+"git.showInlineOpenFileAction": false,
+"git.showProgress": false,
+"git.pullTags": false,
+"gitlens.menus": {
+    "editor": false,
+    "editorGroup": false,
+    "editorTab": false,
+    "explorer": false,
+    "scmGroup": false,
+    "scmItem": false
+},
+"gitlens.statusBar.reduceFlicker": true,
+"gitlens.views.fileHistory.enabled": true,
+"gitlens.views.lineHistory.enabled": false,
+"gitlens.hovers.annotations.details": false,
+"terminal.integrated.fontFamily": "monospace", "cSpell.userWords": ["propagations"],
+"editor.matchBrackets": false,
+"gitlens.codeLens.enabled": false,
+"gitlens.menus": {
+    "editorGroup": {
+        "blame": false,
+        "compare": false
+    },
+},
+"editor.glyphMargin": false,
+"python.pythonPath": "/usr/bin/python3", 
+"customizeUI.stylesheet": {
+    ".editor-actions": "display: none !important;",
+},
+"editor.fontFamily": "'JetBrains Mono'",
+"python.linting.pylintEnabled": true,
+"python.linting.flake8Enabled": false,
+"python.linting.mypyEnabled": false,
+"autoDocstring.docstringFormat": "google",
+"python.defaultInterpreterPath": "python3",
+"editor.selectionClipboard": false,
+"diffEditor.renderSideBySide": false,
+}

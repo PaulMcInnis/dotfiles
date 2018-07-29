@@ -14,7 +14,8 @@ A collection of system settings.
     1. From Disk Utility -> View -> Show All Devices
     1. Select the root internal device (top of tree)
     1. Click erase button at top of window
-    1. select: Name = `macSSD`, format = `APFS` (optimised for SSD's), Scheme = `GUID Partition Map` 
+    1. Select: Name = `macSSD`, format = `APFS` (optimised for SSD's), Scheme = `GUID Partition Map` 
+    1. Close disk utility
     1. Select Install macOS (or Install OS X) from the Utilities window, then click Continue and follow the onscreen instructions.
 1. when you "Create a Computer Account" account name = `paul`
 1. create `Users/paul/dev/` and `Users/paul/dev/bin` and `Users/paul/dev/src`
