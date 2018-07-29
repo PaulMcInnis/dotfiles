@@ -1,4 +1,1 @@
 Sublime-Style-Column-Selection
-autocomplete-cmake
-language-cmake
-language-cpp14
