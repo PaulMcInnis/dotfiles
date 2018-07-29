@@ -8,5 +8,5 @@ cask "iterm2"
 cask "atom"
 cask "sublime-text"
 cask "google-chrome"
-mas "Garageband", id: 682658836
+mas "GarageBand", id: 682658836
 mas "Magnet", id: 441258766
