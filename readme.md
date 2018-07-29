@@ -4,7 +4,10 @@ A collection of system settings.
 
 1. install OSX High Sierra normally on a formatted machine from USB [link](https://support.apple.com/en-ca/HT201372#download)
     1. Connect the bootable installer to a compatible Mac. 
-    1. Use Startup Manager or Startup Disk preferences to select the bootable installer as the startup disk, then start up from it. Your Mac will start up to macOS Recovery. 
+    1. Press and hold the Option key immediately after turning on or restarting your Mac.
+    1. Release the Option key when you see the Startup Manager window.
+    1. If your Mac is protected by a firmware password, you can release the key when you're asked to enter the password.
+    1. Select your USB startup disk, then click the arrow under its icon, or press Return. 
     1. Choose your language, if prompted.
     1. A bootable installer doesn't download macOS from the Internet, but it does require the Internet to get information specific to your Mac model, such as firmware updates. If you need to connect to a Wi-Fi network, use the Wi-Fi menu  in the menu bar. 
     1. Select Install macOS (or Install OS X) from the Utilities window, then click Continue and follow the onscreen instructions.
