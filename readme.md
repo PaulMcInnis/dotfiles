@@ -2,7 +2,7 @@
 
 A collection of system settings.
 
-1. install OSX High Sierra normally on a formatted machine
+1. install OSX High Sierra normally on a formatted machine from USB [link](https://support.apple.com/en-ca/HT201372#download)
 1. when you "Create a Computer Account" account name = `paul`
 1. create `Users/paul/dev/` and `Users/paul/dev/bin` and `Users/paul/dev/src`
 1. setup git ssh keys [link](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)
