@@ -1,13 +1,13 @@
 [user]
-    name = Jose Alarcon
-    email = alarconh.jose@gmail.com
+    name = Paul McInnis
+    email = paulmcinnis99@gmail.com
 
 [github]
-    user = alarconj
+    user = PaulMcInnis
 
 [alias]
     # Commit all changes.
-    ca = "!f() { git add --all; git commit -m \"$1\"; }; f"
+    commitall = "!f() { git add --all; git commit -m \"$1\"; }; f"
 
 [push]
     default = simple
