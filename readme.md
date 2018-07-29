@@ -10,6 +10,11 @@ A collection of system settings.
     1. Select your USB startup disk, then click the arrow under its icon, or press Return. 
     1. Choose your language, if prompted.
     1. A bootable installer doesn't download macOS from the Internet, but it does require the Internet to get information specific to your Mac model, such as firmware updates. If you need to connect to a Wi-Fi network, use the Wi-Fi menu  in the menu bar. 
+    1. Select Disk Utility
+    1. From Disk Utility -> View -> Show All Devices
+    1. Select the root internal device (top of tree)
+    1. Click erase button at top of window
+    1. select: Name = `macSSD`, format = `APFS` (optimised for SSD's), Scheme = `GUID Partition Map` 
     1. Select Install macOS (or Install OS X) from the Utilities window, then click Continue and follow the onscreen instructions.
 1. when you "Create a Computer Account" account name = `paul`
 1. create `Users/paul/dev/` and `Users/paul/dev/bin` and `Users/paul/dev/src`
