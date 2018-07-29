@@ -34,5 +34,5 @@ export SSH_KEY_PATH="$HOME/.ssh/rsa_id"
 # Aliases.
 
 alias ls="gls -ACF --color=always --group-directories-first"
-alias pip="python3 -m pip"
-alias venv="python3 -m venv"
+alias pip3="python3 -m pip"
+alias venv3="python3 -m venv"
