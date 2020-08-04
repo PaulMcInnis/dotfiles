@@ -350,5 +350,12 @@
     {
         "key": "ctrl+k u",
         "command": "-workbench.action.closeUnmodifiedEditors"
+    },
+    { 
+        "key": "insert",
+        "command": "cursorMove",
+        "args": {
+            "to": "viewPortCenter"
+        }
     }
 ]
