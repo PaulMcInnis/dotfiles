@@ -1,4 +1,4 @@
-// Place your key bindings in this file to overwrite the defaultsauto[]
+//  P bindings
 [
     {
         "key": "escape",
@@ -12,6 +12,10 @@
     },
     {
         "key": "meta+c",
+        "command": "editor.action.clipboardCopyAction",
+    },
+    {
+        "key": "ctrl+c",
         "command": "editor.action.clipboardCopyAction",
     },
     {
@@ -71,36 +75,8 @@
         "command": "workbench.action.openEditorAtIndex9"
     },
     {
-        "key": "ctrl+1",
-        "command": "editor.action.insertSnippet",
-        "when": "editorTextFocus",
-        "args": {"snippet": "import pdb; pdb.set_trace()"}
-    },
-    {
         "key": "meta+s",
         "command": "workbench.action.gotoSymbol"
-    },
-    {
-        "key": "ctrl+shift+o",
-        "command": "-workbench.action.gotoSymbol"
-    },
-    {
-        "key": "shift+meta+s",
-        "command": "workbench.action.showAllSymbols"
-    },
-    {
-        "key": "ctrl+t",
-        "command": "-workbench.action.showAllSymbols"
-    },
-    {
-        "key": "meta+i",
-        "command": "editor.action.formatDocument",
-        "when": "editorHasDocumentFormattingProvider && editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly"
-    },
-    {
-        "key": "ctrl+shift+i",
-        "command": "-editor.action.formatDocument",
-        "when": "editorHasDocumentFormattingProvider && editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly"
     },
     {
         "key": "meta+i",
@@ -111,6 +87,12 @@
         "key": "ctrl+shift+i",
         "command": "-editor.action.formatDocument.none",
         "when": "editorTextFocus && !editorHasDocumentFormattingProvider && !editorHasDocumentFormattingProvider && !editorReadonly"
+    },
+    {
+        "key": "ctrl+1",
+        "command": "editor.action.insertSnippet",
+        "when": "editorTextFocus",
+        "args": {"snippet": "import pdb; pdb.set_trace()"}
     },
     {
         "key": "ctrl+2",
@@ -129,16 +111,11 @@
         "command": "-workbench.action.focusFifthEditorGroup"
     },
     {
-        "key": "ctrl+shift+5",
-        "command": "-workbench.action.terminal.split",
-        "when": "terminalFocus"
-    },
-    {
         "key": "ctrl+6",
         "command": "-workbench.action.focusSixthEditorGroup"
     },
     {
-        "key": "shift+meta+q",
+        "key": "meta+q",
         "command": "workbench.action.quit"
     },
     {
@@ -146,64 +123,12 @@
         "command": "-workbench.action.quit"
     },
     {
-        "key": "shift+enter",
-        "command": "-python.datascience.runcurrentcelladvance",
-        "when": "editorTextFocus && python.datascience.featureenabled && python.datascience.hascodecells && !editorHasSelection"
-    },
-    {
-        "key": "shift+enter",
-        "command": "-python.datascience.execSelectionInteractive",
-        "when": "editorTextFocus && python.datascience.featureenabled && python.datascience.ownsSelection && !findInputFocussed && !replaceInputFocussed && editorLangId == 'python'"
-    },
-    {
-        "key": "shift+enter",
-        "command": "-python.execSelectionInTerminal",
-        "when": "editorTextFocus && !findInputFocussed && !python.datascience.ownsSelection && !replaceInputFocussed && editorLangId == 'python'"
-    },
-    {
-        "key": "shift+enter",
-        "command": "-settings.action.focusPreviousSetting",
-        "when": "inSettingsSearch"
-    },
-    {
-        "key": "ctrl+=",
-        "command": "-workbench.action.zoomIn"
-    },
-    {
         "key": "ctrl+=",
         "command": "extension.customWindowZoomIn"
     },
     {
-        "key": "ctrl+9",
-        "command": "-extension.customWindowZoomIn"
-    },
-    {
-        "key": "ctrl+8",
-        "command": "-extension.customWindowZoomOut"
-    },
-    {
-        "key": "ctrl+-",
-        "command": "-workbench.action.zoomOut"
-    },
-    {
         "key": "ctrl+-",
         "command": "extension.customWindowZoomOut"
-    },
-    {
-        "key": "ctrl+\\",
-        "command": "-workbench.action.splitEditor"
-    },
-    {
-        "key": "ctrl+k ctrl+\\",
-        "command": "-workbench.action.splitEditorOrthogonal"
-    },
-    {
-        "key": "ctrl+`",
-        "command": "-workbench.action.terminal.toggleTerminal"
-    },
-    {
-        "key": "meta+",
-        "command": "editor.action.peekTypeDefinition"
     },
     {
         "key": "`",
@@ -211,22 +136,13 @@
         "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
     },
     {
-        "key": "f12",
-        "command": "-editor.action.revealDefinition",
-        "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
-    },
-    {
         "key": "shift+`",
         "command": "workbench.action.navigateBack"
     },
     {
-        "key": "ctrl+alt+-",
-        "command": "-workbench.action.navigateBack"
-    },
-    {
-        "key": "ctrl+alt+tab",
-        "command": "editor.action.referenceSearch.trigger",
-        "when": "editorHasReferenceProvider && editorTextFocus && !inReferenceSearchEditor && !isInEmbeddedEditor"
+        "key": "f12",
+        "command": "-editor.action.revealDefinition",
+        "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
     },
     {
         "key": "shift+f12",
@@ -235,56 +151,15 @@
     },
     {
         "key": "ctrl+q",
-        "command": "workbench.action.closeWindow",
-        "when": "!editorIsOpen && !multipleEditorGroups"
-    },
-    {
-        "key": "ctrl+w",
-        "command": "-workbench.action.closeWindow",
-        "when": "!editorIsOpen && !multipleEditorGroups"
-    },
-    {
-        "key": "ctrl+q",
-        "command": "workbench.action.closeGroup",
-        "when": "activeEditorGroupEmpty && multipleEditorGroups"
-    },
-    {
-        "key": "ctrl+w",
-        "command": "-workbench.action.closeGroup",
-        "when": "activeEditorGroupEmpty && multipleEditorGroups"
-    },
-    {
-        "key": "ctrl+q",
         "command": "workbench.action.closeActiveEditor"
-    },
-    {
-        "key": "ctrl+w",
-        "command": "-workbench.action.closeActiveEditor"
-    },
-    {
-        "key": "ctrl+k ctrl+q",
-        "command": "-workbench.action.navigateToLastEditLocation"
     },
     {
         "key": "ctrl+o",
         "command": "workbench.action.files.openFile"
     },
     {
-        "key": "ctrl+o",
-        "command": "-workbench.action.files.openFile"
-    },
-    {
-        "key": "ctrl+k ctrl+o",
-        "command": "-workbench.action.files.openFolder"
-    },
-    {
-        "key": "ctrl+k o",
-        "command": "-workbench.action.files.showOpenedFileInNewWindow"
-    },
-    {
-        "key": "ctrl+k ctrl+o",
-        "command": "-workbench.action.files.openLocalFolder",
-        "when": "remoteFileDialogVisible"
+        "key": "ctrl+shift+o",
+        "command": "workbench.action.files.openFolder"
     },
     {
         "key": "meta+g",
@@ -343,25 +218,6 @@
         "when": "textInputFocus"
     },
     {
-        "key": "ctrl+u",
-        "command": "-cursorUndo",
-        "when": "textInputFocus"
-    },
-    {
-        "key": "ctrl+k ctrl+u",
-        "command": "-git.unstageSelectedRanges",
-        "when": "isInDiffEditor"
-    },
-    {
-        "key": "ctrl+k ctrl+u",
-        "command": "-editor.action.removeCommentLine",
-        "when": "editorTextFocus && !editorReadonly"
-    },
-    {
-        "key": "ctrl+k u",
-        "command": "-workbench.action.closeUnmodifiedEditors"
-    },
-    { 
         "key": "insert",
         "command": "cursorMove",
         "args": {
