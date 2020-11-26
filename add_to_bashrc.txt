@@ -1,0 +1,11 @@
+# Better release radar
+export SPOTIPY_CLIENT_ID='358cfe6c7ce24c8e8914b43fa01e4746'
+export SPOTIPY_CLIENT_SECRET='<POPULATE THIS>'
+export SPOTIPY_REDIRECT_URI='http://localhost:8888/callback'
+
+export IGNOREEOF=42  # stop closing my terminal when I ctrl+d !!!
+
+# Aliases
+alias lt='ls --human-readable --size -1 -S --classify'  # files by size
+alias releaseradar='python3 /home/paul/Better-Release-Radar/main.py --max-age-days 30 --hide-eps'
+
