@@ -11,12 +11,11 @@ After installing OS, install this stuff:
 Applications to install for system via `snap`:
 
 * `Calendar`
-
 * `Zoom`
 * `Spotify`
-  * Need to force view zoom 2x via cli setting
 * `Chromium`
 * `Gimp`
+* `Sublime Merge`
 
 #### Repositories
 
@@ -42,6 +41,7 @@ Extensions to install for `VSCode`:
 * `cat add_to_bashrc.txt >> ~/.bashrc`
 * install GNOME terminal preferences `gterminal.preferences`
 * Login to `settings` -> `online-accounts` 
+* Fix Spotify HiDPi zoom issue [link](https://community.spotify.com/t5/Desktop-Linux/Spotify-Hi-DPI-Fix-for-Snap-install/td-p/4576328)
 * Completely remove firefox [link](https://askubuntu.com/questions/16758/removing-firefox-in-ubuntu-with-all-add-ons-like-it-never-existed)
 * Disable super + keybindings ('dash to dock') with `dconf-editor`  [link](https://askubuntu.com/questions/968103/disable-the-default-app-key-supernum-functionality-on-ubuntu-17-10-and-later/1137705#1137705)
 * Set Monitor to `144.0` Hz via displays
