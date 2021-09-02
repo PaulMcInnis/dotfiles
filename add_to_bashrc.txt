@@ -6,13 +6,15 @@ export SPOTIPY_REDIRECT_URI='http://localhost:8888/callback'
 export IGNOREEOF=42  # stop closing my terminal when I ctrl+d !!!
 
 # Aliases
-alias lt='ls --human-readable --size -1 -S --classify'  # files by size
 alias releaseradar='python3 /home/paul/Better-Release-Radar/main.py --max-age-days 30 --hide-eps'
 alias tensorboard='python3 -m tensorboard.main'
-alias lt='ls --human-readable --size -1 -S --classify'  # files by size
 alias releaseradar='python3 /home/paul/Better-Release-Radar/main.py --max-age-days 30 --hide-eps'
 alias resetd1='sudo python2 /home/paul/resetusb/reset_usb.py search "Audioengine"'
 alias fixpermissions='sudo chmod -R a-x+X,u-x+rwX,go-wx+rX'
 alias removepycache='find . | grep -E "(__pycache__|\.pyc|\.pyo$)" | xargs rm -rf'
 alias textmode='sudo systemctl isolate multi-user.target'
 alias guimode='sudo systemctl isolate graphical.target'
+alias lt='ls --human-readable --size -1 -S --classify'  # files by size
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'

@@ -6,13 +6,16 @@ A collection of system settings for `Ubuntu 20.04`.
 
 After installing OS, install this stuff:
 
+#### Apt
+
+* `spotify`
+
 #### Snap
 
 Applications to install for system via `snap`:
 
 * `Calendar`
 * `Zoom`
-* `Spotify`
 * `Chromium`
 * `Gimp`
 * `Sublime Merge`
@@ -52,6 +55,7 @@ Extensions to install for `VSCode`:
   * need to fix the usb audio volumes or it cuts out below 40% volume: [link](https://chrisjean.com/fix-for-usb-audio-is-too-loud-and-mutes-at-low-volume-in-ubuntu/)
 * Install `nvidia-docker2` [link](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html#install-guide)
 * Make external display primary for login: [link](https://askubuntu.com/questions/1043337/is-there-to-make-the-login-screen-appear-on-the-external-display-in-18-04)
+* Fix issue with spotify HiDPI: `sudo nano /usr/share/applications/spotify.desktop` and update the line:  `Exec=spotify --force-device-scale-factor=1.5 %U`
 
 ## Todo
 
