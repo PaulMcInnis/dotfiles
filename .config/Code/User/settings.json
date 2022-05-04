@@ -4,18 +4,20 @@
     //         "**/*.py"
     //     ]
     // },
-    "editor.mouseWheelScrollSensitivity": 0.5,
-    "editor.formatOnSave": true,
+    "editor.mouseWheelScrollSensitivity": 0.75,
     "files.insertFinalNewline": true,
     "python.linting.pylintArgs": [
         "--generate-members"
     ], // fixes issues with numpy and pytorch "no member" pylint errors
     "editor.autoSurround": "never",
     "editor.autoClosingQuotes": "never",
-    "editor.detectIndentation": false,
+    "editor.detectIndentation": true,
     "editor.rulers": [
-        88
+        //88k
+        //88,
+        128
     ],
+    "emmet.excludeLanguages": ["typescriptreact"],  // or whatever languages you want to exclude
     "editor.minimap.enabled": false, // removes minimap
     "editor.renderWhitespace": "none", // removes whitespace chars
     "editor.renderIndentGuides": false, // removes indent guides
@@ -38,7 +40,7 @@
     },
     "editor.scrollBeyondLastLine": false,
     "editor.autoClosingBrackets": "never",
-    "window.zoomLevel": 0.6,
+    "window.zoomLevel": 1.5,
     "customWindowZoom.zoomLevelChangeValue": 0.1,
     "workbench.startupEditor": "none",
     "files.trimTrailingWhitespace": true,
@@ -64,7 +66,7 @@
     "python.linting.flake8Enabled": false,
     "python.linting.mypyEnabled": true,
     "autoDocstring.docstringFormat": "google",
-    "python.defaultInterpreterPath": "/usr/local/bin/python",
+    "python.defaultInterpreterPath": "/bin/python3",
     "editor.selectionClipboard": false,
     "diffEditor.renderSideBySide": false,
     "files.exclude": {
@@ -78,10 +80,13 @@
         },
         "**/__pycache__": true,
     },
+    "editor.quickSuggestions": {
+        "strings": true
+    },
+    "css.validate": false, // tailwind does this
     "explorer.compactFolders": false,
     "explorer.confirmDelete": false,
     "editor.autoClosingOvertype": "never",
-
     //GitLens... NOTE: this is needed for devcontainers with this trash ext inside.
     "gitlens.currentLine.enabled": false,
     "gitlens.hovers.currentLine.over": "line",
@@ -141,4 +146,19 @@
         "default": "right",
         "jupyter-notebook": "left"
     },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "gitlens.views.commits.files.layout": "list",
+    "debug.javascript.codelens.npmScripts": "never",
+    "npm.autoDetect": "off",
+    "Lua.telemetry.enable": false,
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "javascript.updateImportsOnFileMove.enabled": "always",
 }

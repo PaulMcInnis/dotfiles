@@ -96,6 +96,14 @@
         }
     },
     {
+        "key": "alt+`",
+        "command": "editor.action.insertSnippet",
+        "when": "editorTextFocus",
+        "args": {
+            "snippet": "`"
+        }
+    },
+    {
         "key": "ctrl+2",
         "command": "-workbench.action.focusSecondEditorGroup"
     },
